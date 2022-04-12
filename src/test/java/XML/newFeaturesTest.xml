@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Netahsilat UI Smoke">
+        <groups>
+            <run>
+                <include name="regressionTest" />
+            </run>
+        </groups>
+        <classes>
+            <class name="netfinansUI.hesapBakiyeleri.C2421" />
+        </classes>
+    </test>
+</suite>
